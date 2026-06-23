@@ -1,0 +1,8 @@
+{
+  "name": "gnn-visualizer-root",
+  "version": "1.0.0",
+  "description": "Root package to launch frontend and backend",
+  "scripts": {
+    "start": "start cmd /k \"uvicorn server:app --reload --port 8000\" && cd frontend && npm run dev"
+  }
+}
